@@ -26,7 +26,7 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- {spec}/*`.split("\n")
   s.require_paths = ["lib"]
 
-  s.add_dependency('rails', [">= 3.0.0"])
+  s.add_dependency('rails', [">= 4.2.0.rc2"])
   s.add_dependency('bundler', [">= 1.1.0"])
   s.add_dependency('simplecov', [">= 0.3.8"])
   s.add_dependency('rspec-rails', [">= 2.8.1"])
